@@ -1,4 +1,4 @@
-# spVelo: RNA velocity inference for multi-batch spatial transcriptomics data.
+# spVelo: RNA velocity inference for multi-batch spatial transcriptomics data
 
 ## Installation
 First install [scanpy](https://scanpy-tutorials.readthedocs.io/en/latest/index.html), [scvi](https://scanpy-tutorials.readthedocs.io/en/latest/index.html), [scvelo](https://scvelo.readthedocs.io/en/stable/), [pyg](https://pytorch-geometric.readthedocs.io/en/latest/index.html), [velovgi](https://velovgi-workstation.readthedocs.io/en/latest/index.html), using:
@@ -16,7 +16,7 @@ cd spVelo
 pip install .
 ```
 ## Tutorial
-Please see the jupytor notebook.
+Please see the [jupytor notebook](https://github.com/VivLon/spVelo/blob/main/tutorial.ipynb).
 ## Citation
 
 
