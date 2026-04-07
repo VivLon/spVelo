@@ -21,7 +21,7 @@ from torch_geometric.utils import from_scipy_sparse_matrix
 from torch_geometric.nn import GATConv
 from scipy.spatial import Delaunay
 from scanpy.neighbors import _get_indices_distances_from_dense_matrix
-from velovgi.preprocessing.batch_network import *
+# from velovgi.preprocessing.batch_network import *
 from scvelo.preprocessing.neighbors import _get_rep, _set_pca, get_duplicate_cells, _set_neighbors_data
 from scvelo import logging as logg
 from sklearn.gaussian_process.kernels import RBF

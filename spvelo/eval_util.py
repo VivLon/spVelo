@@ -19,7 +19,8 @@ import scanpy as sc
 from scvelo.preprocessing.neighbors import _get_rep, _set_pca, get_duplicate_cells#, _set_neighbors_data
 from scvelo import logging as logg
 from scanpy.neighbors import _get_indices_distances_from_dense_matrix
-from velovgi.preprocessing.batch_network import *
+# from velovgi.preprocessing.batch_network import filter_M, get_normed_mnn_connectivities, get_mnn_connectivities
+from .velovgi_pp import *
 from anndata import AnnData
 
 def get_spatial_neighbor(adata, spatial_key="spatial", batch_key=None, n_neighs=30):
